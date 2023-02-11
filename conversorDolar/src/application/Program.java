@@ -9,7 +9,7 @@ Scanner sc = new Scanner (System.in);
 		
 		System.out.println("Digite a quantidade em Dolar a ser convetitida "
 				+ " para Real");
-		float valor = sc.nextInt();
+		float valor = sc.nextFloat();
 		
 		float valorBruto =  valor * 5.22f;
 		
